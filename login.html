@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Olimpo Servicios Generales</title>
+    <link rel="shortcut icon" type="image/jpg" href="logo.png"/>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="olimpo.png"></a>
+        </div>
+        <nav id="botonera_principal">
+            <div class="iniciarsesion">
+                <a href="login.html"><img src="login.png" alt=""></a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="contenido_index">
+        <div id="caja">
+            <form action="POST" action="#">
+                <ul class="cuenta">
+                    <li>Ya eres miembro</li>
+                    <label for="email">Correo Electrónico:</label>
+                    <li><input type="email" placeholder="Correo Electrónico" name="email" required></li>
+                    <label for="password">Contraseña:</label>
+                    <li><input type="password" placeholder="Contraseña" name="password" required></li>
+                    <li><input type="submit"></li>
+                </ul>
+                <ul class="registro">
+                    <div class="column">
+                        <li>Nuevo usuario</li>
+                        <label for="nombre">Nombre:</label>
+                        <li><input type="text" placeholder="Nombre" name="nombre" required></li>
+                        <label for="apellido">Apellido:</label>
+                        <li><input type="text" placeholder="Apellido" name="apellido" required></li>
+                        <label for="email">Correo Electrónico:</label>
+                        <li><input type="email" placeholder="Correo Electrónico" name="email" required></li>
+                    </div>
+                    <div class="column">
+                        <label for="password">Contraseña:</label>
+                        <li><input type="password" placeholder="Contraseña" name="password" required></li>
+                        <label for="passwordrepeat">Confirmar contraseña:</label>
+                        <li><input type="password" placeholder="Repite la contraseña" name="passwordrepeat" required></li>
+                        <label for="nacimiento">Fecha de nacimiento:</label>
+                        <li><input type="date" name="nacimiento" required></li>
+                        <li><input type="submit"></li>
+                    </div>
+                </ul>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p> © Powered By Muñoz Brothers | 2020 All rights reserved.</p>
+    </footer>
+
+
+
+</body>
+
+</html>
